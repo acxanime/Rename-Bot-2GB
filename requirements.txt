@@ -5,5 +5,5 @@ dnspython
 hachoir
 Pillow
 aiohttp
-pytz==1.5
-pyromod==1.5
+pytz
+pyromod
