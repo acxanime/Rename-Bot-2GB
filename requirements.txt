@@ -1,9 +1,9 @@
-pyrogram==2.0.83
+pyrogram==2.0.106
 TgCrypto
 motor
 dnspython
 hachoir
 Pillow
 aiohttp
-pytz
-pyromod
+pytz==1.5
+pyromod==1.5
