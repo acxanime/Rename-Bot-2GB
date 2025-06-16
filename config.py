@@ -39,7 +39,7 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @MadflixBotz"""
+<b>Bot Is Made By :</b> @ST_Rename_Update"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
@@ -75,7 +75,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/MadflixSupport>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Sitaratoons_Support_bot>Developer</a>
 """
 
     PROGRESS_BAR = """\n
@@ -98,9 +98,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @MadflixBotz</code>
+<code>By :- @Sitaratoons_Support_bot</code>
 
-💬 For Any Help Contact @MadflixSupport
+💬 For Any Help Contact @Sitaratoons_Support_bot
 """
 
 
