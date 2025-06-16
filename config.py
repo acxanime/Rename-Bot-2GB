@@ -16,7 +16,7 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/66206c25bea9fa07ff6de-769ca71e865908cc68.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6692613520').split()]
 
     # channels logs
     FORCE_SUBS   = os.environ.get("FORCE_SUBS", "ST_Rename_Update") 
