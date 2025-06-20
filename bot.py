@@ -1,4 +1,3 @@
-import os
 from datetime import datetime
 from pytz import timezone
 from pyrogram import Client, __version__
@@ -6,11 +5,10 @@ from pyrogram.raw.all import layer
 from config import Config
 from aiohttp import web
 from route import web_server
-import pyrogram.utils
 import pyromod
+import pyrogram.utils
 
-pyrogram.utils.MIN_CHAT_ID = -999999999999
-pyrogram.utils.MIN_CHANNEL_ID = -1009999999999
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 
 class Bot(Client):
@@ -34,15 +32,12 @@ class Bot(Client):
         self.uptime = Config.BOT_UPTIME     
         if Config.WEBHOOK:
             app = web.AppRunner(await web_server())
-            await app.setup()
-            PORT = int(os.environ.get("PORT", 8000))  # Use port 8000 or env PORT
-            await web.TCPSite(app, "0.0.0.0", PORT).start()
+            await app.setup()       
+            await web.TCPSite(app, "0.0.0.0", 8080).start()     
         print(f"{me.first_name} Is Started.....✨️")
         for id in Config.ADMIN:
-            try: 
-                await self.send_message(id, f"**{me.first_name} Is Started...**")                                
-            except Exception as e:
-                print(f"Error sending message to admin {id}: {e}")
+            try: await self.send_message(id, f"**{me.first_name}  Is Started...**")                                
+            except: pass
         
         if Config.LOG_CHANNEL:
             try:
@@ -50,11 +45,19 @@ class Bot(Client):
                 date = curr.strftime('%d %B, %Y')
                 time = curr.strftime('%I:%M:%S %p')
                 await self.send_message(Config.LOG_CHANNEL, f"**{me.mention} Is Restarted !!**\n\n📅 Date : `{date}`\n⏰ Time : `{time}`\n🌐 Timezone : `Asia/Kolkata`\n\n🉐 Version : `v{__version__} (Layer {layer})`</b>")                                
-            except Exception as e:
-                print(f"Error sending message to LOG_CHANNEL: {e}")
-
-    async def stop(self):
-        await super().stop()
-        print(f"{self.mention} is stopped.")
+            except:
+                print("Please Make This Is Admin In Your Log Channel")
 
 Bot().run()
+
+
+
+
+
+
+# Jishu Developer 
+# Don't Remove Credit 🥺
+# Telegram Channel @MadflixBotz
+# Backup Channel @JishuBotz
+# Developer @JishuDeveloper
+# Contact @MadflixSupport
