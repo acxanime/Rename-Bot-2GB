@@ -21,7 +21,7 @@ class Config(object):
     # channels logs
     FORCE_SUBS   = os.environ.get("FORCE_SUBS", "ST_Rename_Update") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002320080278"))
-    BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", ""))
+
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
