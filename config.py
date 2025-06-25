@@ -45,12 +45,12 @@ class Txt(object):
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/MadflixBotz>MadflixBotz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/MadflixSupport>Jishu Developer</a>
+├<b>🖥️ Developer</b> : <a href=https://t.me/ST_Rename_Update>ST Rename bot</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/Sitaratoons_Support_bot>Developer</a>
 ├<b>📕 Library</b> : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├<b>✏️ Language</b> : <a href=https://www.python.org>Python 3</a>
 ├<b>💾 Database</b> : <a href=https://cloud.mongodb.com>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://instagram.com/jishukumarsinha>Rename v4.7.0</a></b>     
+├<b>📊 Build Version</b> : <a href=https://www.instagram.com/mr_ajay_702?igsh=cDhremNyOWh4Zzdq>Rename v4.7.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -91,7 +91,7 @@ class Txt(object):
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> `kumarjishusinha@ibl`
+<b>🛍 UPI ID:</b> `acxanime@upi`
 """
 
 
